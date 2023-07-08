@@ -112,4 +112,5 @@ describe("gameplay works correctly", () => {
         document.getElementById("button2").click();
         expect(game.lastButton).toEqual("");
     });
+   
 });
